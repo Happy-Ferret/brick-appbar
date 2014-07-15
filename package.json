@@ -1,6 +1,6 @@
 {
   "name": "brick-appbar",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A component providing header bar.",
   "main": "brick-appbar.html",
   "scripts": {

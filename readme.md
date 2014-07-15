@@ -1,6 +1,6 @@
 # brick-appbar
 
-> A [Brick](https://github.com/mozbrick/brick/) custom element starter-kit.
+> A [Brick](https://github.com/mozbrick/brick/) component providing a header bar.
 
 ## Demo
 
@@ -22,7 +22,7 @@
 
 3. Start using it:
 
-    You can use any elements in place of the <button> tags in the example below. A heading <h1> to <h6> element is required, and will be created automatically if not provided.
+    You can use any elements in place of the `<button>` tags in the example below. A heading `<h1>` to `<h6>` element is required, and will be created automatically if not provided.
     
     ```html
     <brick-appbar>
