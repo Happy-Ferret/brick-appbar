@@ -41,9 +41,9 @@ Attribute     | Options     | Default      | Description
 
 ## Methods
 
-Accessor       | Returns     | Description
----            | ---         | ---
-`heading `     | Nothing.    | corresponds to the header text attribute.
+Accessor         | Description
+---              | ---
+`heading `       | corresponds to the header text attribute.
 
 ## Events
 
