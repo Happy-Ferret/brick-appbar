@@ -17,13 +17,13 @@
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="src/brick-appbar.html">
+    <link rel="import" href="dist/brick-appbar.html">
     ```
 
 3. Start using it:
 
-    You can use any elements in place of the `<button>` tags in the example below. A heading `<h1>` to `<h6>` element is required, and will be created automatically if not provided.
-    
+    You can use any elements in place of the `<button>` tags in the example below. A heading `<h1>` to `<h6>` can be used instead of the `<h2>`.
+
     ```html
     <brick-appbar>
       <button>=</button>
@@ -32,19 +32,6 @@
       <button>?</button>
     </brick-appbar>
     ```
-
-## Options
-
-Attribute     | Options     | Description
----           | ---         | ---
-`heading`     | *string*    | Edits the header text.
-
-## Methods
-
-Accessor         | Description
----              | ---
-`heading `       | corresponds to the header text attribute.
-
 
 ## Development
 
