@@ -2,11 +2,7 @@
   <style>:host {
   padding: 0;
   width: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  display: block;
 }
 ::content h1,
 h2,
@@ -14,13 +10,6 @@ h3,
 h4,
 h5,
 h6 {
-  min-width: auto;
-  min-height: auto;
-  -webkit-box-flex: 1;
-  -moz-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  box-flex: 1;
   flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -29,15 +18,22 @@ h6 {
   margin: 0;
 }
 </style>
-  <style>::content h1 {
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -moz-justify-content: center;
-  -ms-justify-content: center;
-  justify-content: center;
+  <style>:host {
+  background: #fff;
+  display: flex;
+  min-height: 50px;
+}
+::content h1,
+::content h2,
+::content h3,
+::content h4,
+::content h5,
+::content h6 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
   min-width: auto;
   min-height: auto;
   -webkit-box-flex: 1;
@@ -46,12 +42,26 @@ h6 {
   -ms-flex: 1;
   box-flex: 1;
   flex: 1;
+  -webkit-align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
   padding: 0 16px;
   font-weight: 300;
   font-style: italic;
   font-size: 24px;
+  line-height: 26px;
+  color: #333;
 }
 ::content button {
+  color: #333;
   display: block;
   border: none;
   width: auto;
@@ -66,6 +76,10 @@ h6 {
   border-radius: 0;
   transition: all 0s;
   transition-delay: 300ms;
+}
+::content button:active {
+  color: #333;
+  background: rgba(0,0,0,0.1);
 }
 </style>
   <content></content>
