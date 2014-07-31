@@ -1,0 +1,32 @@
+@import '../../../bower_components/brick-common/styles/mixins'
+@import '../../../bower_components/brick-common/styles/params'
+@import '../../../bower_components/brick-common/styles/themes/default/params'
+
+::content {
+  h1 {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 0 16px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+  }
+
+  button {
+    display: block;
+    border: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    min-width: 50px;
+    text-decoration: none;
+    text-align: center;
+    background: none;
+    border-radius: 0;
+    transition: $button-transition;
+    transition-delay: $button-transition-delay;
+  }
+}
